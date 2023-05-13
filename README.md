@@ -21,6 +21,17 @@ A online scheduler
 * use `npm start` to start the react app.
 * the frontend runs on http://localhost:3000
 
+## Database
+* create a database online_scheduler
+  * `CREATE DATABASE online_scheduler;`
+* go to `src/main/resources/application.properties`
+* modify those three lines for your mysql:
+  * ```java
+     spring.datasource.url=jdbc:mysql://localhost:3306/online_scheduler
+     spring.datasource.username=
+     spring.datasource.password=
+    ```
+
 # Introduction
 ## Log in
 ![log_in_image](images/login.png)
